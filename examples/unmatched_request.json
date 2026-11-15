@@ -1,0 +1,16 @@
+{
+  "points": [
+    {
+      "timestamp": "2026-01-01T00:00:00Z",
+      "candidates": [{"segment_id": "A", "offset": 0}]
+    },
+    {
+      "timestamp": "2026-01-01T00:01:00Z",
+      "candidates": [{"segment_id": "B", "offset": 0}]
+    }
+  ],
+  "segments": [
+    {"id": "A", "start_node": "N1", "end_node": "N2", "length": 50},
+    {"id": "B", "start_node": "N9", "end_node": "N10", "length": 70}
+  ]
+}

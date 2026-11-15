@@ -1,0 +1,20 @@
+{
+  "points": [
+    {
+      "timestamp": "2026-01-01T00:00:00Z",
+      "candidates": [
+        {"segment_id": "P", "offset": 0},
+        {"segment_id": "Q", "offset": 0}
+      ]
+    },
+    {
+      "timestamp": "2026-01-01T00:01:00Z",
+      "candidates": [{"segment_id": "R", "offset": 0}]
+    }
+  ],
+  "segments": [
+    {"id": "P", "start_node": "N1", "end_node": "N2", "length": 50},
+    {"id": "Q", "start_node": "N1", "end_node": "N2", "length": 50},
+    {"id": "R", "start_node": "N2", "end_node": "N3", "length": 70}
+  ]
+}

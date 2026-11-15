@@ -1,0 +1,32 @@
+{
+  "points": [
+    {
+      "timestamp": "2026-01-01T00:00:00Z",
+      "candidates": [
+        {"segment_id": "W1", "offset": 4},
+        {"segment_id": "E1", "offset": 9}
+      ]
+    },
+    {
+      "timestamp": "2026-01-01T00:00:40Z",
+      "candidates": [
+        {"segment_id": "W2", "offset": 2},
+        {"segment_id": "E2", "offset": 7}
+      ]
+    },
+    {
+      "timestamp": "2026-01-01T00:01:30Z",
+      "candidates": [
+        {"segment_id": "W3", "offset": 3}
+      ]
+    }
+  ],
+  "segments": [
+    {"id": "W1", "start_node": "N1", "end_node": "N2", "length": 120},
+    {"id": "W2", "start_node": "N2", "end_node": "N3", "length": 150},
+    {"id": "W3", "start_node": "N3", "end_node": "N4", "length": 90},
+    {"id": "E1", "start_node": "N1", "end_node": "N5", "length": 60},
+    {"id": "E2", "start_node": "N5", "end_node": "N6", "length": 70},
+    {"id": "E3", "start_node": "N6", "end_node": "N4", "length": 80}
+  ]
+}
